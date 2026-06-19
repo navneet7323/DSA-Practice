@@ -4,13 +4,13 @@ let matrix = [
   [7, 8, 9],
 ];
 
-let max = matrix[0][0];
+let min = matrix[0][0];
 
 for (let i = 0; i < matrix.length; i++) {
   for (let j = 0; j < matrix.length; j++) {
-    if (matrix[i][j] > max) {
-      max = matrix[i][j];
+    if (matrix[i][j] < min) {
+      min = matrix[i][j];
     }
   }
 }
-console.log(max);
+console.log(min);

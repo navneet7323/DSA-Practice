@@ -1,4 +1,4 @@
-let arr = [1, 2, 3, 4, 5];
+let arr = [1, 33, 3, 4, 5];
 
 let max = arr[0];
 
